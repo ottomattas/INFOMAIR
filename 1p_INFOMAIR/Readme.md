@@ -12,9 +12,9 @@ We delivered **Team18_1a.zip** with successful results, while feedback with impr
 * Python code was created based on the task description.
 
 ## Baseline systems
-1) We parsed all the acts and created files with the output to describe the turns in appropriately named files (e.g "1b/baseline_data/ack").
-2) After we had the turns separated, we parsed all the transcriptions for creating the ruleset for every act (e.g "1b/baseline_data/ack.t").
-3) We created the baseline rules manually in "1b/baseline_rules".
+1) We parsed all the acts and created files with the output to describe the turns in appropriately named files (e.g **1b/baseline_data/ack**).
+2) After we had the turns separated, we parsed all the transcriptions for creating the ruleset for every act (e.g **1b/baseline_data/ack.t**).
+3) We created the baseline rules manually in *1b/baseline_rules*.
 
 ## Machine learning
 WIP

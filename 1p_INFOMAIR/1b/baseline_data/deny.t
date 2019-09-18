@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A1/voip-4a6ecc1f1c-20130328_120337/label.json-            "transcription": "dont want that", 
+dstc2_traindev/data//Mar13_S0A1/voip-4a6ecc1f1c-20130328_120337/label.json-            "transcription": "dont want that",
 dstc2_traindev/data//Mar13_S0A1/voip-4a6ecc1f1c-20130328_120337/label.json-            "transcription": "dont want that",
 dstc2_traindev/data//Mar13_S0A1/voip-935947e17b-20130402_195123/label.json-            "transcription": "can you change romanian food to something else",
 dstc2_traindev/data//Mar13_S1A0/voip-4c0d36762a-20130328_205236/label.json-            "transcription": "wrong",

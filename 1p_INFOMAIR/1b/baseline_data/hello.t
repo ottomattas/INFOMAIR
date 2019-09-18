@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "transcription": "hi im looking for a restaurant that serves lebanese food", 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "transcription": "hi im looking for a restaurant that serves lebanese food",
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "hello",
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "serve hello food",
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "transcription": "hello",

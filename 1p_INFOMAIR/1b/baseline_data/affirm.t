@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-afd3aa91f0-20130325_230434/label.json-            "transcription": "yes", 
+dstc2_traindev/data//Mar13_S0A0/voip-afd3aa91f0-20130325_230434/label.json-            "transcription": "yes",
 dstc2_traindev/data//Mar13_S0A0/voip-62cc0cc55d-20130323_155046/label.json-            "transcription": "yes",
 dstc2_traindev/data//Mar13_S0A0/voip-7e22911804-20130327_202516/label.json-            "transcription": "unintelligible yeah what about thai food",
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "transcription": "yes",

@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-52eb280e7b-20130325_124240/label.json-            "transcription": "is it expensive", 
+dstc2_traindev/data//Mar13_S0A0/voip-52eb280e7b-20130325_124240/label.json-            "transcription": "is it expensive",
 dstc2_traindev/data//Mar13_S0A0/voip-afd3aa91f0-20130325_230434/label.json-            "transcription": "is it in the moderate price range",
 dstc2_traindev/data//Mar13_S0A0/voip-7e22911804-20130327_202516/label.json-            "transcription": "does it serve thai food",
 dstc2_traindev/data//Mar13_S0A0/voip-7e22911804-20130325_202635/label.json-            "transcription": "is it in the center",

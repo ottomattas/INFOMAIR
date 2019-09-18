@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-90732b027d-20130327_183400/label.json-            "transcription": "noise", 
+dstc2_traindev/data//Mar13_S0A0/voip-90732b027d-20130327_183400/label.json-            "transcription": "noise",
 dstc2_traindev/data//Mar13_S0A0/voip-90732b027d-20130327_183400/label.json-            "transcription": "noise",
 dstc2_traindev/data//Mar13_S0A0/voip-52eb280e7b-20130325_124240/label.json-            "transcription": "noise",
 dstc2_traindev/data//Mar13_S0A0/voip-52eb280e7b-20130325_124240/label.json-            "transcription": "um",

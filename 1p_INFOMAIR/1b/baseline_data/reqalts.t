@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-afd3aa91f0-20130325_230434/label.json-            "transcription": "is there anything else", 
+dstc2_traindev/data//Mar13_S0A0/voip-afd3aa91f0-20130325_230434/label.json-            "transcription": "is there anything else",
 dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_151904/label.json-            "transcription": "how about french food",
 dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_151904/label.json-            "transcription": "anything else",
 dstc2_traindev/data//Mar13_S0A0/voip-fbd422ad18-20130328_185340/label.json-            "transcription": "how about italian food",

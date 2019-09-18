@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_121622/label.json-            "transcription": "what is the phone number", 
+dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_121622/label.json-            "transcription": "what is the phone number",
 dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_121622/label.json-            "transcription": "and the area",
 dstc2_traindev/data//Mar13_S0A0/voip-90732b027d-20130327_183400/label.json-            "transcription": "address",
 dstc2_traindev/data//Mar13_S0A0/voip-90732b027d-20130327_183400/label.json-            "transcription": "phone number",

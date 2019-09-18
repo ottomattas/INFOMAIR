@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-22c938c8ba-20130325_123407/label.json-            "transcription": "great day unintelligible", 
+dstc2_traindev/data//Mar13_S0A0/voip-22c938c8ba-20130325_123407/label.json-            "transcription": "great day unintelligible",
 dstc2_traindev/data//Mar13_S0A0/voip-e8997b10da-20130327_193112/label.json-            "transcription": "okay um",
 dstc2_traindev/data//Mar13_S0A1/voip-e8997b10da-20130327_193641/label.json-            "transcription": "okay um",
 dstc2_traindev/data//Mar13_S0A1/voip-3b59a0391b-20130401_132324/label.json-            "transcription": "okay give me the first",

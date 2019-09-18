@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-c8ec8c76dd-20130328_174742/label.json-            "transcription": "can you repeat that", 
+dstc2_traindev/data//Mar13_S0A0/voip-c8ec8c76dd-20130328_174742/label.json-            "transcription": "can you repeat that",
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_145900/label.json-            "transcription": "repeat that",
 dstc2_traindev/data//Mar13_S0A0/voip-da4a08ad84-20130328_154747/label.json-            "transcription": "go back",
 dstc2_traindev/data//Mar13_S0A1/voip-eaef6f434c-20130323_025614/label.json-            "transcription": "can you repeat that",

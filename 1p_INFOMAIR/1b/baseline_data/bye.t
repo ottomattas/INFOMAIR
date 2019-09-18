@@ -1,4 +1,4 @@
-dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_151904/label.json-            "transcription": "good bye", 
+dstc2_traindev/data//Mar13_S0A0/voip-14f776f781-20130328_151904/label.json-            "transcription": "good bye",
 dstc2_traindev/data//Mar13_S0A0/voip-4f069a4136-20130327_205819/label.json-            "transcription": "goodbye",
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130327_061457/label.json-            "transcription": "see you goodbye",
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130327_061457/label.json-            "transcription": "see you goodbye",

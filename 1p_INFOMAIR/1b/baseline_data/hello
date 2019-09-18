@@ -1,1128 +1,1128 @@
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "transcription": "hi im looking for a restaurant that serves lebanese food", 
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "audio-file": "pt344x_0000962_0001262.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "audio-file": "pt344x_0000962_0001262.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                                "food",
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                                "lebanese"
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_211146/label.json:                "cam": "hello(food=lebanese,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                                "south"
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-ddcaad92a1-20130325_222137/label.json:                "cam": "hello(area=south,pricerange=moderate,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "cam": "null()"
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            }
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        }, 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        },
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "turn-index": 4, 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "turn-index": 4,
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "pricerange": "moderate", 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "pricerange": "moderate",
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "area": "dontcare"
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            }, 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "audio-file": "pt344x_0003042_0003151.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            },
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "audio-file": "pt344x_0003042_0003151.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            }
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        }, 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        },
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "turn-index": 5, 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "turn-index": 5,
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "pricerange": "moderate", 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "pricerange": "moderate",
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "area": "dontcare"
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            }, 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "serve hello food", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "audio-file": "pt344x_0003845_0004046.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            },
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "transcription": "serve hello food",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "audio-file": "pt344x_0003845_0004046.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-317a1436fe-20130325_173537/label.json:                "cam": "hello(type=restaurant)"
 --
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "cheap"
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                                "south"
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-f091d0e461-20130327_205249/label.json:                "cam": "hello(pricerange=cheap,type=restaurant,area=south)"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-{
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-    "caller-id": "72e50baa85", 
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-    "caller-id": "72e50baa85",
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "audio-file": "pt344x_0002877_0002916.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "audio-file": "pt344x_0002877_0002916.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-72e50baa85-20130326_045105/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-{
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-    "caller-id": "edb8609855", 
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-    "caller-id": "edb8609855",
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "transcription": "hello welcome", 
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "audio-file": "pt344x_0000069_0000146.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "transcription": "hello welcome",
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "audio-file": "pt344x_0000069_0000146.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-edb8609855-20130327_183802/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-{
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-    "caller-id": "936ec6902a", 
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-    "caller-id": "936ec6902a",
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "audio-file": "pt344x_0001632_0001686.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "audio-file": "pt344x_0001632_0001686.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-936ec6902a-20130328_140211/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "expensive"
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                                "south"
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-fce37b0ccb-20130328_144745/label.json:                "cam": "hello(area=south,pricerange=expensive,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    },
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    {
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                            [
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                                "north"
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-5749b16764-20130328_151730/label.json:                "cam": "hello(pricerange=moderate,type=restaurant,area=north)"
 --
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-{
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-    "caller-id": "0fa32b1e78", 
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-    "caller-id": "0fa32b1e78",
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-        {
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "transcription": "hello welcome", 
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "audio-file": "pt344x_0000064_0000138.wav", 
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "transcription": "hello welcome",
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "audio-file": "pt344x_0000064_0000138.wav",
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                    {
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                    }
-dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json-                ],
 dstc2_traindev/data//Mar13_S0A0/voip-0fa32b1e78-20130328_151140/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "transcription": "hi im looking for a restaurant in the west part of town", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "audio-file": "pt344x_0000945_0001258.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "transcription": "hi im looking for a restaurant in the west part of town",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "audio-file": "pt344x_0000945_0001258.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                                "west"
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210653/label.json:                "cam": "hello(area=west,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-{
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-    "caller-id": "876ef67873", 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-    "caller-id": "876ef67873",
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-        {
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "transcription": "hi need an", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "audio-file": "pt344x_0001167_0001297.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "transcription": "hi need an",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "audio-file": "pt344x_0001167_0001297.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_030352/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "transcription": "hi looking for a restaurant in the west part of town", 
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "audio-file": "pt344x_0001012_0001284.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "transcription": "hi looking for a restaurant in the west part of town",
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "audio-file": "pt344x_0001012_0001284.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                                "west"
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-ddcaad92a1-20130326_002225/label.json:                "cam": "hello(type=restaurant,area=west)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                                "south"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_005548/label.json:                "cam": "hello(area=south,pricerange=moderate,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "food",
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "basque"
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                                "west"
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-87de4f7a80-20130324_154621/label.json:                "cam": "hello(area=west,type=restaurant,task=find,food=basque)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "transcription": "hi im looking for a rerestaurant that serves cuban food", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "audio-file": "pt344x_0000900_0001277.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "transcription": "hi im looking for a rerestaurant that serves cuban food",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "audio-file": "pt344x_0000900_0001277.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                                "food",
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                                "cuban"
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-f091d0e461-20130327_210851/label.json:                "cam": "hello(food=cuban,task=find)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "transcription": "hi im looking for cuban food", 
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "audio-file": "pt344x_0001106_0001372.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "transcription": "hi im looking for cuban food",
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "audio-file": "pt344x_0001106_0001372.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                                "food",
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                                "cuban"
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-e99e4f4538-20130327_141718/label.json:                "cam": "hello(food=cuban,task=find)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "transcription": "hi im looking for a moderately priced restaurant", 
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "audio-file": "pt344x_0000856_0001296.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "transcription": "hi im looking for a moderately priced restaurant",
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "audio-file": "pt344x_0000856_0001296.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-c8ec8c76dd-20130328_205953/label.json:                "cam": "hello(type=restaurant,pricerange=moderate,task=find)"
 --
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-{
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-    "caller-id": "199d62165b", 
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-    "caller-id": "199d62165b",
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-        {
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "transcription": "hi im looking for", 
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "audio-file": "pt344x_0001100_0001291.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "transcription": "hi im looking for",
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "audio-file": "pt344x_0001100_0001291.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-199d62165b-20130402_115850/label.json:                "cam": "hello(task=find)"
 --
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-{
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-    "caller-id": "b772dbf437", 
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-    "caller-id": "b772dbf437",
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-        {
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "transcription": "hello and welcome to the cambridge", 
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "audio-file": "pt344x_0000066_0000176.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "transcription": "hello and welcome to the cambridge",
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "audio-file": "pt344x_0000066_0000176.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-b772dbf437-20130402_143019/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "transcription": "hello darling im looking for a restaurant in the north part of town", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "audio-file": "pt344x_0000267_0000639.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "transcription": "hello darling im looking for a restaurant in the north part of town",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "audio-file": "pt344x_0000267_0000639.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                                "area",
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                                "north"
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-876ef67873-20130402_032159/label.json:                "cam": "hello(area=north,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-{
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-    "caller-id": "4c25da9a27", 
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-    "caller-id": "4c25da9a27",
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-        {
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "transcription": "hi i want a restaurant", 
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "audio-file": "pt344x_0000932_0001148.wav", 
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "transcription": "hi i want a restaurant",
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "audio-file": "pt344x_0000932_0001148.wav",
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                "json": [
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                    {
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-4c25da9a27-20130327_135709/label.json:                "cam": "hello(type=restaurant)"
 --
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "food",
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "lebanese"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    }, 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    },
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    {
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                            [
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                                "cheap"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                            ]
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                    }
-dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                ], 
+dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json-                ],
 dstc2_traindev/data//Mar13_S0A1/voip-f1e8236264-20130323_002130/label.json:                "cam": "hello(food=lebanese,pricerange=cheap,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "transcription": "hi looking for a moderately priced restaurant", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "audio-file": "pt344x_0000957_0001207.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "transcription": "hi looking for a moderately priced restaurant",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "audio-file": "pt344x_0000957_0001207.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130326_010701/label.json:                "cam": "hello(pricerange=moderate,type=restaurant)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            }
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-        },
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "turn-index": 19, 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "turn-index": 19,
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "food": "dontcare", 
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "pricerange": "dontcare", 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "food": "dontcare",
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "pricerange": "dontcare",
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "area": "east"
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "audio-file": "pt344x_0012500_0012539.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            },
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "audio-file": "pt344x_0012500_0012539.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-a7ddefaeb3-20130328_173142/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "transcription": "hi im looking for mexican food", 
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "audio-file": "pt344x_0000921_0001108.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "transcription": "hi im looking for mexican food",
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "audio-file": "pt344x_0000921_0001108.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                                "food",
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                                "mexican"
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-0fa32b1e78-20130402_142351/label.json:                "cam": "hello(food=mexican,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-    "caller-id": "2d3d74d091", 
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-    "caller-id": "2d3d74d091",
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "audio-file": "pt344x_0000000_0000494.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "audio-file": "pt344x_0000000_0000494.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-2d3d74d091-20130328_192945/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "transcription": "hello im looking for an expensive restaurant", 
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "audio-file": "pt344x_0000929_0001122.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "transcription": "hello im looking for an expensive restaurant",
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "audio-file": "pt344x_0000929_0001122.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                                "expensive"
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-4b7e22cc07-20130401_185640/label.json:                "cam": "hello(type=restaurant,pricerange=expensive,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-    "caller-id": "fe4b6ef58f", 
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-    "caller-id": "fe4b6ef58f",
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "audio-file": "pt344x_0001942_0001975.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "audio-file": "pt344x_0001942_0001975.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-fe4b6ef58f-20130325_224609/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-    "caller-id": "b772dbf437", 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-    "caller-id": "b772dbf437",
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "transcription": "hello and welcome", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "audio-file": "pt344x_0000074_0000144.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "transcription": "hello and welcome",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "audio-file": "pt344x_0000074_0000144.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_142118/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "cheap"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                                "south"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_234752/label.json:                "cam": "hello(area=south,pricerange=cheap,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-    "caller-id": "d645d56d23", 
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-    "caller-id": "d645d56d23",
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "audio-file": "pt344x_0001718_0001757.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "audio-file": "pt344x_0001718_0001757.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-d645d56d23-20130401_203033/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "transcription": "hi im looking for a moderately priced restaurant", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "audio-file": "pt344x_0000964_0001343.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "transcription": "hi im looking for a moderately priced restaurant",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "audio-file": "pt344x_0000964_0001343.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-ddcaad92a1-20130325_222005/label.json:                "cam": "hello(type=restaurant,pricerange=moderate,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-    "caller-id": "b772dbf437", 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-    "caller-id": "b772dbf437",
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "transcription": "hello and welcome to the cambridge", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "audio-file": "pt344x_0000079_0000190.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "transcription": "hello and welcome to the cambridge",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "audio-file": "pt344x_0000079_0000190.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-b772dbf437-20130402_141805/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-    "caller-id": "c8ec8c76dd", 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-    "caller-id": "c8ec8c76dd",
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "transcription": "noise hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "audio-file": "pt344x_0000435_0001121.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "transcription": "noise hello",
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "audio-file": "pt344x_0000435_0001121.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_181909/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "expensive"
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                                "south"
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-7e4cdce06a-20130323_131109/label.json:                "cam": "hello(area=south,pricerange=expensive,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-    "caller-id": "935947e17b", 
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-    "caller-id": "935947e17b",
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "audio-file": "pt344x_0001936_0001968.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "audio-file": "pt344x_0001936_0001968.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-935947e17b-20130402_200817/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "food",
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "korean"
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                                "centre"
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-87de4f7a80-20130324_155006/label.json:                "cam": "hello(food=korean,type=restaurant,task=find,area=centre)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "cam": "affirm(area=east,task=find,food=indonesian)"
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            }
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        },
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "turn-index": 1, 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "turn-index": 1,
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "food": "indonesian", 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "food": "indonesian",
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "area": "east"
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "audio-file": "pt344x_0003635_0003683.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            },
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "audio-file": "pt344x_0003635_0003683.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "cam": "affirm()"
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            }
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        },
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "turn-index": 11, 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "turn-index": 11,
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "food": "chinese", 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "food": "chinese",
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "area": "east"
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "audio-file": "pt344x_0011881_0011964.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            },
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "audio-file": "pt344x_0011881_0011964.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-d76851034e-20130326_221719/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    },
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    {
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                            [
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                                "west"
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-c8ec8c76dd-20130328_180054/label.json:                "cam": "hello(area=west,pricerange=moderate,type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-{
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-    "caller-id": "72e50baa85", 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-    "caller-id": "72e50baa85",
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "transcription": "music hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "audio-file": "pt344x_0000000_0000586.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "transcription": "music hello",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "audio-file": "pt344x_0000000_0000586.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            }
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-        },
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-        {
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "turn-index": 1, 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "audio-file": "pt344x_0000694_0000734.wav", 
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "turn-index": 1,
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "audio-file": "pt344x_0000694_0000734.wav",
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                    {
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                    }
-dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json-                ],
 dstc2_traindev/data//Mar13_S1A0/voip-72e50baa85-20130326_044704/label.json:                "cam": "hello()"
 --
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                "cam": "inform(food=christmas)"
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            }
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-        },
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-        {
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "turn-index": 3, 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "turn-index": 3,
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                "food": "christmas", 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                "food": "christmas",
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                "area": "north"
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "transcription": "hello", 
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "audio-file": "pt344x_0002381_0002436.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            },
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "transcription": "hello",
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "audio-file": "pt344x_0002381_0002436.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-59bc8a2167-20130325_143706/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "transcription": "hi im looking for a restaurant in the east art of town", 
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "audio-file": "pt344x_0000906_0001298.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "transcription": "hi im looking for a restaurant in the east art of town",
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "audio-file": "pt344x_0000906_0001298.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                                "east"
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-f091d0e461-20130327_210252/label.json:                "cam": "hello(area=east,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "cheap"
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                                "west"
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_230811/label.json:                "cam": "hello(area=west,pricerange=cheap,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                "cam": "request(addr)"
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            }
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-        },
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-        {
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "turn-index": 4, 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "turn-index": 4,
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "goal-labels": {
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                "food": "vietnamese"
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "transcription": "hi", 
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "audio-file": "pt344x_0003984_0004059.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            },
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "transcription": "hi",
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "audio-file": "pt344x_0003984_0004059.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-e3b4879e0d-20130326_024455/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "moderate"
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        "act": "inform"
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "area", 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "area",
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                                "east"
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-87de4f7a80-20130324_154807/label.json:                "cam": "hello(area=east,pricerange=moderate,type=restaurant,task=find)"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "transcription": "hello im looking for a cheap", 
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "audio-file": "pt344x_0000879_0001178.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "transcription": "hello im looking for a cheap",
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "audio-file": "pt344x_0000879_0001178.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                                "pricerange", 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                                "pricerange",
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                                "cheap"
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-db80a9e6df-20130328_231545/label.json:                "cam": "hello(pricerange=cheap,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-{
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-    "caller-id": "876ef67873", 
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-    "caller-id": "876ef67873",
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-        {
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "transcription": "hi im looking for a restaurant", 
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "audio-file": "pt344x_0001135_0001294.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "transcription": "hi im looking for a restaurant",
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "audio-file": "pt344x_0001135_0001294.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-876ef67873-20130327_035101/label.json:                "cam": "hello(type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-{
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-    "caller-id": "ddcaad92a1", 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-    "caller-id": "ddcaad92a1",
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-    "turns": [
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-        {
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "turn-index": 0, 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "goal-labels": {}, 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "transcription": "hi im looking for a restaurant in the", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "method-label": "none", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "audio-file": "pt344x_0001107_0001290.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "turn-index": 0,
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "goal-labels": {},
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "transcription": "hi im looking for a restaurant in the",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "method-label": "none",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "audio-file": "pt344x_0001107_0001290.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_222532/label.json:                "cam": "hello(type=restaurant,task=find)"
 --
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            }
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-        }, 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-        },
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-        {
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "turn-index": 8, 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "turn-index": 8,
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "goal-labels": {
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "food": "turkish", 
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "pricerange": "dontcare", 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "food": "turkish",
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "pricerange": "dontcare",
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "area": "dontcare"
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            }, 
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "transcription": "hello hello oh your on the phone yea", 
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "method-label": "byalternatives", 
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "audio-file": "pt344x_0005528_0005955.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            },
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "transcription": "hello hello oh your on the phone yea",
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "method-label": "byalternatives",
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "audio-file": "pt344x_0005528_0005955.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                        "act": "hello"
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-03d6592b76-20130326_012940/label.json:                "cam": "hello()"
 --
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "transcription": "hi im looking for a place that serves scandinavian food", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "method-label": "byconstraints", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "audio-file": "pt344x_0000939_0001239.wav", 
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "requested-slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "transcription": "hi im looking for a place that serves scandinavian food",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "method-label": "byconstraints",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "audio-file": "pt344x_0000939_0001239.wav",
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "requested-slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-            "semantics": {
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                "json": [
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                    {
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        "slots": [], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        "slots": [],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        "act": "hello"
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                    }, 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                    },
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                    {
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        "slots": [
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                            [
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                                "food", 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                                "food",
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                                "scandinavian"
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                            ]
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        ], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        ],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                        "act": "inform"
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                    }
-dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                ], 
+dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json-                ],
 dstc2_traindev/data//Mar13_S1A1/voip-ddcaad92a1-20130325_234956/label.json:                "cam": "hello(food=scandinavian,task=find)"

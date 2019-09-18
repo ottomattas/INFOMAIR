@@ -3,8 +3,8 @@
 * Python code was created based on the task description.
 
 ## Deliverables
-The zip file holds both the transition diagram and the python program.
-We delivered **Team18_1a_1.zip** with successful results, while **Team18_1a_2.zip** is im proved after feedback was received. **Team18_1a_2.zip** was not delivered for review as this was done during the practice session locally on 17/09/2019.
+The zip container holds both the transition diagram and the python program.
+We delivered **Team18_1a.zip** with successful results, while feedback with improvements was received during the practice session on 17/09/2019.  The latest version of the zip container was not delivered for review as this was done locally during the practice session.
 
 
 # [Part 1b: text classification](https://uu.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_3274643_1&course_id=_122545_1)

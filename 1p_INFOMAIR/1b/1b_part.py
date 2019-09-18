@@ -8,16 +8,12 @@ import os
 # comment?
 path = 'C:\\Users\\Marcel Bregman\\.spyder-py3\\dstc2_training'
 
-# Function that receives a dialog act and removes the information between
-# parentheses.
+# Recursive function that receives a dialog act and removes the information
+# between parentheses.
 def removeParentheses(dialogAct):
-    result = ""
-    for c in dialogAct:
-        if c == '(':
-            return result
-        else:
-            result += c
-    return result
+    if dialogAct[-1:] == '(':
+        return dialogAct[:-1]
+    return removeParentheses(dialogAct[:-1])
 
 # Function that makes a text file containing all user utterances of the
 # trainig set dialogs preceded by the corresponding dialog act.

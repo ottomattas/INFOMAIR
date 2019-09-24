@@ -381,6 +381,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#STUDENTE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#SUNDAY -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#SUNDAY">
@@ -441,24 +481,6 @@
     <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#room101 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#room101"/>
-    
-
-
-    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#studentA -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#studentA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></name>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#studentB -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#studentB">
-        <rdf:type rdf:resource="http://www.semanticweb.org/62599/ontologies/2019/8/untitled-ontology-10#student"/>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></name>
-    </owl:NamedIndividual>
     
 
 

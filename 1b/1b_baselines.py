@@ -5,8 +5,39 @@
 import os
 import random
 import string
+import json
 
-path = 'C:\\Users\\Marcel Bregman\\.spyder-py3\\keyword files'
+# path to the folder with the files with the keywords
+keywordPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\GIT project MAIR\\baseline_rules'
+
+# path to the folder with the training data
+trainingDataPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\dstc2_traindev'
+
+# dictionary for the weight for each dialog act
+weightDictionary = {
+        "ack" : 0,
+        "affirm" : 0,
+        "bye" : 0,
+        "confirm" : 0,
+        "deny" : 0,
+        "hello" : 0,
+        "inform" : 0,
+        "negate" : 0,
+        "null" : 0,
+        "repeat" : 0,
+        "reqalts" : 0,
+        "reqmore" : 0,
+        "request" : 0,
+        "restart" : 0,
+        "thankyou" : 0
+}
+
+# Recursive function that receives a dialog act and removes the information
+# between parentheses.
+def removeParentheses(dialogAct):
+    if dialogAct[-1:] == '(':
+        return dialogAct[:-1]
+    return removeParentheses(dialogAct[:-1])
 
 # Function that receives an utterance and checks for certain dialog act 
 # keywords which it gets from text files. If a keyword is found, it prints 
@@ -14,7 +45,7 @@ path = 'C:\\Users\\Marcel Bregman\\.spyder-py3\\keyword files'
 def baselineKeywords(utterance):
     
     # iterate over keyword files
-    for root, dirs, files in os.walk(path):
+    for root, dirs, files in os.walk(keywordPath):
         for file in files:
             currentFile = os.path.join(root, file)
             
@@ -34,68 +65,80 @@ def baselineKeywords(utterance):
                 
     return 0 # if none of the keywords is found
 
+# Calculates the weight per dialog act
+def getDialogActWeights():
+    
+    # iterate over all folders in the path
+    for root, dirs, files in os.walk(trainingDataPath):
+        for directory in dirs:
+            currentDir = os.path.join(root, directory)
+            
+            # if folder with log.json and label.json files is reached
+            if 'log.json' in os.listdir(currentDir):
+                
+                # read log file
+                with open(currentDir + '/log.json', 'r') as myfile:
+                    log = myfile.read()
+                
+                # read label file
+                with open(currentDir + '/label.json', 'r') as myfile:
+                    label = myfile.read()
+                    
+                # parse files
+                systemData = json.loads(log)
+                userData = json.loads(label)
+                
+                # iterate over all turns in the dialog
+                turn = 0
+                numberOfTurns = len(systemData["turns"])
+                while turn < numberOfTurns:
+                    dialogAct = userData["turns"][turn]["semantics"]["cam"]
+                    
+                    # split acts in case one utterance contains two dialog acts
+                    multipleActs = dialogAct.split("|")
+                    
+                    # write dialog act and utterance to the text file
+                    for act in multipleActs:
+                        act = removeParentheses(act)
+                        if act in weightDictionary:
+                            
+                            # Add 1 up to the act
+                            weightDictionary[act] += 1
+                        
+                    turn += 1
+    
+    # Calculate the total of counted dialog acts
+    total = 0
+    for count in weightDictionary.values():
+        total += count
+    
+    # Convert the each dialog act to a number between 0 and 1 
+    # by dividing by the total number of dialog acts
+    previous = 0
+    for act, count in weightDictionary.items():
+        weight = count / total + previous
+        weightDictionary[act] = weight
+        previous = weight
+
 # Function that randomly returns one of the dialog acts with probabilities
 # corresponding to how often they appear in the training set.
 def baselineDistribution():
-    
-    # hard coded weights for dialog acts corresponding to how often they appear
-    # in the training set
-    total = 15611
-    ack_weight = (19/total)
-    affirm_weight = (555/total) + ack_weight
-    bye_weight = (169/total) + affirm_weight
-    confirm_weight = (126/total) + bye_weight
-    deny_weight = (10/total) + confirm_weight
-    hello_weight = (54/total) + deny_weight
-    inform_weight = (5970/total) + hello_weight
-    negate_weight = (188/total) + inform_weight
-    null_weight = (994/total) + negate_weight
-    repeat_weight = (25/total) + null_weight
-    reqalts_weight = (1100/total) + repeat_weight
-    reqmore_weight = (4/total) + reqalts_weight
-    request_weight = (4255/total) + reqmore_weight
-    restart_weight = (7/total) + request_weight
-    thank_weight = (2135/total) + restart_weight
     
     # random number between 0 and 1
     r = random.uniform(0, 1)
     
     # return the dialog act the random number corresponds to
-    if r <= ack_weight:
-        return 'ack'
-    if r <= affirm_weight:
-        return 'affirm'
-    if r <= bye_weight:
-        return 'bye'
-    if r <= confirm_weight:
-        return 'confirm'
-    if r <= deny_weight:
-        return 'deny'
-    if r <= hello_weight:
-        return 'hello'
-    if r <= inform_weight:
-        return 'inform'
-    if r <= negate_weight:
-        return 'negate'
-    if r <= null_weight:
-        return 'null'
-    if r <= repeat_weight:
-        return 'repeat'
-    if r <= reqalts_weight:
-        return 'reqalts'
-    if r <= reqmore_weight:
-        return 'reqmore'
-    if r <= request_weight:
-        return 'request'
-    if r <= restart_weight:
-        return 'restart'
-    if r <= thank_weight:
-        return 'thank'
-    
+    for act, weight in weightDictionary.items():
+        if r <= weight:
+            return act
+        
     return 0
     
 
 def main():
+    
+    getDialogActWeights()
+    
     stop = 0
     
     while stop == 0:

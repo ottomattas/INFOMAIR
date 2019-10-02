@@ -33,6 +33,7 @@ keywordList = {}
 # List of requestable keywords to match, filled later in the code
 requestableList = []
 
+# Library for finding the index per kind of request to look up in the restaurant data
 requestIndex = {"addr":5,
                 "area":2,
                 "food":3,
@@ -88,19 +89,23 @@ def isAcknowledgement(dialogAct):
 # Match keywords against words (for certain types), using the Levenshtein with a certain threshold.
 def keywordMatching(sentence, grade, types, vectorizer, classifier):
     
-    words = sentence.split()
+    # Splits the sentence
+    words = re.findall(r"[\w']+", sentence)
     
+    # for each word, check if it matches a keyword
     for word in words:
         for keyword in keywordList:
+            
+            # Levenshtein distance
             dist = distance(word.lower(), keyword.lower())
             if dist < grade and keywordList[keyword] in types:
-                if "requestable" in types:
+                if "requestables" in types:
                     if dist == 0:
-                        information[keywordList[keyword]].append(keyword)
+                        information["requestables"].append(keyword)
                     else:
                         check = input("You said " + word + ". Did you mean " + keyword + "?\n")
                         if isAcknowledgement(getDialogAct(vectorizer, classifier, check)):
-                            information[keywordList[keyword]].append(keyword)
+                            information["requestables"].append(keyword)
                         else:
                             continue
                 else:
@@ -245,22 +250,26 @@ def findKeywords(userUtterance, vectorizer, classifier):
 # try finding a request
 def findRequests(userUtterance, vectorizer, classifier):
     patternMatching(userUtterance, vectorizer, classifier)
-    keywordMatching(userUtterance, 1, ["requestable"], vectorizer, classifier)
+    keywordMatching(userUtterance, 1, ["requestables"], vectorizer, classifier)
     
+# reset all existing information
 def clearInformation():
     for element in information:
         information[element] = None
 
+# get the dialog act of a sentence
 def getDialogAct(vectorizer, classifier, utterance):
     inputData = vectorizer.transform({utterance})
     dialogAct = classifier.predict(inputData)[0]
     return dialogAct
 
+# go through the complete dialog
 def stateTransition():
     state = 'getInfo'
     restCount = 0
     restaurants = []
     
+    # train the data
     vectorizer, classifier = trainLogisticRegression()
     
     print("Welcome to the A-team restaurant finder!")
@@ -273,6 +282,7 @@ def stateTransition():
         inputData = vectorizer.transform({userUtterance})
         dialogAct = classifier.predict(inputData)[0]
         
+        # Try to find certain keywords to get the preferences from the user
         findKeywords(userUtterance, vectorizer, classifier)
         
         # Check if there are already restaurants found and
@@ -292,6 +302,7 @@ def stateTransition():
             stateTransition()
             return
         
+        # ask for the information we need
         elif state == 'getInfo':              
             if information["food"] == None:
                 print("What type of food do you want?")
@@ -313,49 +324,59 @@ def stateTransition():
                 else:
                     print("please change your preferences.")
         
+        # when our information is complete, offer a restaurant
         if state == 'firstProposal':
             if len(restaurants) > 0:
                 restaurant = restaurants[restCount][0]
                 print("How about ", restaurant, "?")
-                state = 'waitingForRequest'
+                state = 'waitingForApproval'
             else:
                 print("I can't find a " + information["price"] + " " + information["food"] +
                     " restaurant in the " + information["area"] + " part of town. \n"
                     + "try changing your preferences.")
                 state = 'getInfo'
         
-        elif state == 'waitingForRequest':       
+        elif state == 'waitingForApproval':
             if isAcknowledgement(dialogAct):
-                print("Okay. Do you have any (other) requests?")
-                answer = input("")
-                dialogAct = getDialogAct(vectorizer, classifier, answer)
-                print("")
-                if dialogAct == 'negate' or dialogAct == 'deny':
-                    print("Okay, goodbye!")
-                    return
-                elif isAcknowledgement(dialogAct):
-                    print ("please tell me")
+                print("Okay. Do you have any requests?")
+                state = 'waitingForRequest'
             elif dialogAct == 'reqmore' or dialogAct == 'negate' or dialogAct == 'deny':
                 state = 'nextProposal'
+            else:
+                print("I can't tell if you are confirming the offered restauarant. Please, Try again.")
+        
+        # finally, start waiting for a request
+        elif state == 'waitingForRequest':       
+            if isAcknowledgement(dialogAct):
+                print ("please tell me your request")
+            elif dialogAct == 'reqmore' or dialogAct == 'negate' or dialogAct == 'deny':
+                print("Okay, goodbye!")
+                return
             if dialogAct == 'request':
                 findRequests(userUtterance, vectorizer, classifier)
                 if len(information["requestables"]) == 0:
                     print("I did not understand your request, could you repeat it?")
                 else:
-                    print(information)
                     for request in information["requestables"]:
                         print(request + ": " + restaurants[restCount][requestIndex[request]])
-                
+                        print("Do you have any other requests?")
+                        information["requestables"] = []
+            else:
+                print("I did not understand what you said. Do you have any requests?")
+        
+        # If necessary, offer another restaurant
         if state == 'nextProposal':            
             if restCount + 1 < len(restaurants):
                 restCount += 1    
                 restaurant = restaurants[restCount][0]
                 print("OK, how about ", restaurant, "?")
+                state = 'waitingForApproval'
             else:
                 print("There are no more " + information["price"] + " " + information["food"] +
                 " restaurants in the " + information["area"] + " part of town")
+                state = 'getInfo'
             
-            
+# main function       
 def main():
     retrieveKeywordsFromJSON()
     

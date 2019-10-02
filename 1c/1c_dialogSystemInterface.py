@@ -66,10 +66,10 @@ information = {"food":None, "price":None, "area":None, "requestables":[]}
 
 # Retrieve the JSON data from the keywords file and add them to the keywordList
 def retrieveKeywordsFromJSON():
-    
+
     with open(keywordsPath) as keywordsJSON:
         file = keywordsJSON.read()
-    
+
     keywordData = json.loads(file)
     for foodtype in keywordData["informable"]["food"]:
         keywordList[foodtype] = "food"
@@ -88,14 +88,14 @@ def isAcknowledgement(dialogAct):
 
 # Match keywords against words (for certain types), using the Levenshtein with a certain threshold.
 def keywordMatching(sentence, grade, types, vectorizer, classifier):
-    
+
     # Splits the sentence
     words = re.findall(r"[\w']+", sentence)
-    
+
     # for each word, check if it matches a keyword
     for word in words:
         for keyword in keywordList:
-            
+
             # Levenshtein distance
             dist = distance(word.lower(), keyword.lower())
             if dist < grade and keywordList[keyword] in types:
@@ -120,7 +120,7 @@ def keywordMatching(sentence, grade, types, vectorizer, classifier):
 
 # Match patterns against a sentence
 def patternMatching(sentence, vectorizer, classifier):
-    
+
     for pattern in patternList:
         search = re.search(pattern.lower(), sentence.lower())
         if search:
@@ -128,27 +128,27 @@ def patternMatching(sentence, vectorizer, classifier):
 
 # Reads a csv file with all the restaurants in it and selects the fitting restaurants
 def readFromCSV():
-    
+
     possibleRestaurants = []
-    
+
     # read the csv file
     with open(csvPath) as csvFile:
         csv_reader = csv.reader(csvFile, delimiter=',')
         lineCount = 0
         for line in csv_reader:
-            
+
             # Skip the first line
             if lineCount == 0:
                 lineCount += 1
-                
+
             # Add all the restaurants that match on price, area and food
             else:
                 if len(line) > 3:
-                    if (line[1] == information["price"] and line[2] == information["area"] 
+                    if (line[1] == information["price"] and line[2] == information["area"]
                     and line[3] == information["food"]):
                         possibleRestaurants.append(line)
                 lineCount += 1
-    
+
     # Return all the found restaurants as a list
     return possibleRestaurants
 
@@ -161,77 +161,77 @@ def removeParentheses(dialogAct):
 
 # Calculates the weight per dialog act
 def getData(path):
-    
+
     dataList = []
-    
+
     # iterate over all folders in the path
     for root, dirs, files in os.walk(path):
         for directory in dirs:
             currentDir = os.path.join(root, directory)
-            
+
             # if folder with log.json and label.json files is reached
             if 'log.json' in os.listdir(currentDir):
-                
+
                 # read log file
                 with open(currentDir + '/log.json', 'r') as myfile:
                     log = myfile.read()
-                
+
                 # read label file
                 with open(currentDir + '/label.json', 'r') as myfile:
                     label = myfile.read()
-                    
+
                 # parse files
                 systemData = json.loads(log)
                 userData = json.loads(label)
-                
+
                 # iterate over all turns in the dialog
                 turn = 0
                 numberOfTurns = len(systemData["turns"])
                 while turn < numberOfTurns:
                     dialogAct = userData["turns"][turn]["semantics"]["cam"]
                     sentence = userData["turns"][turn]["transcription"]
-                    
+
                     # split acts in case one utterance contains two dialog acts
                     multipleActs = dialogAct.split("|")
-                    
+
                     # write dialog act and utterance to the text file
                     for act in multipleActs:
                         act = removeParentheses(act)
                         newInstance = Instance(sentence, act)
                         dataList.append(newInstance)
-                        
+
                     turn += 1
-    
+
     return dataList
 
 # Do a Logistic Regression on the data
 def trainLogisticRegression():
-    
+
     # Retrieve the data we need
     dataList = getData(dataPath)
-    
+
     sentences = []
     for item in dataList:
         sentences.append(item.sentence)
-        
+
     values = []
     for item in dataList:
         values.append(item.label)
-    
+
     # Split the data 15 to 85 percent training and test data
     trainingInput, testInput, trainingLabels, testLabels = train_test_split(
                 sentences, values, test_size=0.15)
-    
+
     vectorizer = CountVectorizer(min_df=0, lowercase=False)
     vectorizer.fit(trainingInput)
-    
+
     trainingData = vectorizer.transform(trainingInput)
-    
+
     classifier = LogisticRegression()
-    
+
     # Train the data
     classifier.fit(trainingData, trainingLabels)
-    
+
     return vectorizer, classifier
 
 # Returns true if all information is known, else false
@@ -239,7 +239,7 @@ def haveAllInformation():
     for element in information:
         if information[element] == None:
             return False
-    
+
     return True
 
 # try matching the keywords for finding a restaurant
@@ -251,7 +251,7 @@ def findKeywords(userUtterance, vectorizer, classifier):
 def findRequests(userUtterance, vectorizer, classifier):
     patternMatching(userUtterance, vectorizer, classifier)
     keywordMatching(userUtterance, 1, ["requestables"], vectorizer, classifier)
-    
+
 # reset all existing information
 def clearInformation():
     for element in information:
@@ -268,62 +268,62 @@ def stateTransition():
     state = 'getInfo'
     restCount = 0
     restaurants = []
-    
+
     # train the data
     vectorizer, classifier = trainLogisticRegression()
-    
+
     print("Welcome to the A-team restaurant finder!")
-    
+
     while (state != 'exit'):
-        
+
         # classify the user utterance
         userUtterance = input()
         print("")
         inputData = vectorizer.transform({userUtterance})
         dialogAct = classifier.predict(inputData)[0]
-        
+
         # Try to find certain keywords to get the preferences from the user
         findKeywords(userUtterance, vectorizer, classifier)
-        
+
         # Check if there are already restaurants found and
         # if all the information is gathered
         if len(restaurants) == 0 and haveAllInformation():
             restaurants = readFromCSV()
-        
+
         # you can always exit the dialog with saying goodbye/bye
         if dialogAct == 'bye':
             print("Thanks for using the A-team restaurant finder!")
             return
-        
+
         # you can restart the conversation from scratch
         if dialogAct == 'restart':
             clearInformation()
             print("Okay, we will start over.")
             stateTransition()
             return
-        
+
         # ask for the information we need
-        elif state == 'getInfo':              
+        elif state == 'getInfo':
             if information["food"] == None:
                 print("What type of food do you want?")
-                
+
             elif information["area"] == None:
                 print("What area do you want?")
-            
+
             elif information["price"] == None:
                 print("What price do you want?")
-                
+
             else:
                 print("Is a " + information["price"] + " " + information["food"] +
                     " restaurant in the " + information["area"] + " part of town "
                     + "what you are looking for?")
                 answer = input("")
                 print("")
-                if isAcknowledgement(getDialogAct(vectorizer, classifier, answer)):                    
+                if isAcknowledgement(getDialogAct(vectorizer, classifier, answer)):
                     state = 'firstProposal'
                 else:
                     print("please change your preferences.")
-        
+
         # when our information is complete, offer a restaurant
         if state == 'firstProposal':
             if len(restaurants) > 0:
@@ -335,7 +335,7 @@ def stateTransition():
                     " restaurant in the " + information["area"] + " part of town. \n"
                     + "try changing your preferences.")
                 state = 'getInfo'
-        
+
         elif state == 'waitingForApproval':
             if isAcknowledgement(dialogAct):
                 print("Okay. Do you have any requests?")
@@ -344,9 +344,9 @@ def stateTransition():
                 state = 'nextProposal'
             else:
                 print("I can't tell if you are confirming the offered restauarant. Please, Try again.")
-        
+
         # finally, start waiting for a request
-        elif state == 'waitingForRequest':       
+        elif state == 'waitingForRequest':
             if isAcknowledgement(dialogAct):
                 print ("please tell me your request")
             elif dialogAct == 'reqmore' or dialogAct == 'negate' or dialogAct == 'deny':
@@ -363,11 +363,11 @@ def stateTransition():
                         information["requestables"] = []
             else:
                 print("I did not understand what you said. Do you have any requests?")
-        
+
         # If necessary, offer another restaurant
-        if state == 'nextProposal':            
+        if state == 'nextProposal':
             if restCount + 1 < len(restaurants):
-                restCount += 1    
+                restCount += 1
                 restaurant = restaurants[restCount][0]
                 print("OK, how about ", restaurant, "?")
                 state = 'waitingForApproval'
@@ -375,42 +375,41 @@ def stateTransition():
                 print("There are no more " + information["price"] + " " + information["food"] +
                 " restaurants in the " + information["area"] + " part of town")
                 state = 'getInfo'
-            
-# main function       
+
+# main function
 def main():
     retrieveKeywordsFromJSON()
-    
-    stateTransition() 
+
+    stateTransition()
 
 main()
-        
+
         # I left these here for your reference of what dialog acts exist:
-        
+
 #        if dialog_act == 'hello':
-#        
+#
 #        if dialog_act == 'affirm':
-#            
+#
 #        if dialog_act == 'bye':
-#            
+#
 #        if dialog_act == 'confirm':
-#            
+#
 #        if dialog_act == 'deny':
 #
 #        if dialog_act == 'negate':
-#            
+#
 #        if dialog_act == 'repeat':
-#            
+#
 #        if dialog_act == 'reqalts':
-#            
+#
 #        if dialog_act == 'reqmore':
 #
 #        if dialog_act == 'request':
-#            
+#
 #        if dialog_act == 'restart':
-#            
+#
 #        if dialog_act == 'thankyou':
-#            
+#
 #        if dialog_act == 'null':
-#  
+#
 #        if dialog_act == 'ack'
-        

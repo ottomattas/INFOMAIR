@@ -1,4 +1,6 @@
-# Keyword matching algorithm
+# Methods in AI Research
+# Team project part 1c - Keyword matching algorithm
+# Maarten San Giorgi, Otto Mättas, David-Paul Niland & Lonnie Bregman
 
 from Levenshtein import distance
 import re
@@ -31,10 +33,10 @@ information = {"food":None, "price":None, "area":None}
 
 # Retrieve the JSON data from the keywords file and add them to the keywordList
 def retrieveKeywordsFromJSON():
-    
+
     with open(keywordsPath) as keywordsJSON:
         file = keywordsJSON.read()
-    
+
     keywordData = json.loads(file)
     for foodtype in keywordData["informable"]["food"]:
         keywordList[foodtype] = "food"
@@ -45,9 +47,9 @@ def retrieveKeywordsFromJSON():
 
 # Match keywords against words (for certain types), using the Levenshtein with a certain threshold.
 def keywordMatching(sentence, grade, types):
-    
+
     words = sentence.split()
-    
+
     for word in words:
         for keyword in keywordList:
             dist = distance(word.lower(), keyword.lower())
@@ -63,18 +65,18 @@ def keywordMatching(sentence, grade, types):
 
 # Match patterns against a sentence
 def patternMatching(sentence):
-    
+
     for pattern in patternList:
         search = re.search(pattern.lower(), sentence.lower())
         if search:
             keywordMatching(search.group(1), 3, patternList[pattern])
-          
+
 # Returns true if all information is known, else false
 def haveAllInformation():
     for element in information:
         if information[element] == None:
             return False
-    
+
     return True
 
 # Returns all the information we still need
@@ -83,17 +85,17 @@ def getNeededInformation():
     for element in information:
         if information[element] == None:
             result += element + " and "
-    
+
     if result.endswith(" and "):
         result = result[:-5]
-    
+
     return result
 
 # main function
 def main():
-    
+
     retrieveKeywordsFromJSON()
-    
+
     while not haveAllInformation():
             test = input("random input sentence (type 'exit' to quit): ")
             if test == "exit":
@@ -101,8 +103,8 @@ def main():
             patternMatching(test)
             keywordMatching(test, 1, ["price", "area", "food"])
             print ("give me more information about " + getNeededInformation())
-            
+
     print(information)
-    
+
 main()
 #patternMatching("in the east part of town")

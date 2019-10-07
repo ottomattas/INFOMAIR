@@ -6,13 +6,13 @@ from Levenshtein import distance
 import re
 import json
 
-# All the keywords we can match against, used to fill the keywordList
+# all the keywords we can match against, used to fill the keywordList
 keywordsPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\keywords.json'
 
-# List of keywords to match, filled later in the code
+# list of keywords to match, filled later in the code
 keywordList = {}
 
-# Possible patterns to match
+# possible patterns to match
 patternList = {"in the (.*) part of town":["area"],
                "want (.*) food":["price", "food"],
                "a (.*) restaurant":["price", "food"],
@@ -28,12 +28,11 @@ patternList = {"in the (.*) part of town":["area"],
                "(\b.*\b) food":["price", "food"],
                "(\b.*\b) restaurant":["price", "food"]}
 
-# A dictionary to hold the data for known information
+# dictionary to hold the data for known information
 information = {"food":None, "price":None, "area":None}
 
-# Retrieve the JSON data from the keywords file and add them to the keywordList
+# Retrieving the JSON data from the keywords file and add them to the keywordList.
 def retrieveKeywordsFromJSON():
-
     with open(keywordsPath) as keywordsJSON:
         file = keywordsJSON.read()
 
@@ -45,9 +44,8 @@ def retrieveKeywordsFromJSON():
     for area in keywordData["informable"]["area"]:
         keywordList[area] = "area"
 
-# Match keywords against words (for certain types), using the Levenshtein with a certain threshold.
+# Matching keywords against words (for certain types) using the Levenshtein with a certain threshold.
 def keywordMatching(sentence, grade, types):
-
     words = sentence.split()
 
     for word in words:
@@ -63,15 +61,14 @@ def keywordMatching(sentence, grade, types):
                     else:
                         continue
 
-# Match patterns against a sentence
+# Matching patterns against a sentence.
 def patternMatching(sentence):
-
     for pattern in patternList:
         search = re.search(pattern.lower(), sentence.lower())
         if search:
             keywordMatching(search.group(1), 3, patternList[pattern])
 
-# Returns true if all information is known, else false
+# Function that returns true if all information is known, else false.
 def haveAllInformation():
     for element in information:
         if information[element] == None:
@@ -79,7 +76,7 @@ def haveAllInformation():
 
     return True
 
-# Returns all the information we still need
+# Function that returns all the information we still need.
 def getNeededInformation():
     result = ""
     for element in information:
@@ -91,9 +88,8 @@ def getNeededInformation():
 
     return result
 
-# main function
+# Main function.
 def main():
-
     retrieveKeywordsFromJSON()
 
     while not haveAllInformation():
@@ -107,4 +103,3 @@ def main():
     print(information)
 
 main()
-#patternMatching("in the east part of town")

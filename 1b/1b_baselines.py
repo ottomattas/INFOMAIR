@@ -13,6 +13,9 @@ keywordPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\GIT project MA
 # path to the folder with the training data
 trainingDataPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\dstc2_traindev'
 
+# path to the folder with the test data
+testDataPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR\\dstc2_test'
+
 # dictionary for the weight for each dialog act
 weightDictionary = {
         "ack" : 0,
@@ -60,10 +63,64 @@ def baselineKeywords(utterance):
                 
                 # if a keyword is found, print the corresponding dialog act
                 if keyword in utterance:
-                    print(file)
-                    return 1
+                    return file
                 
-    return 0 # if none of the keywords is found
+    return ""
+
+# Measures the accuracy of the 2 baselines
+def testBaseLines():
+    
+    totalTests = 0
+    correctKeywords = 0
+    correctDistributions = 0
+    
+     # iterate over all folders in the path
+    for root, dirs, files in os.walk(testDataPath):
+        for directory in dirs:
+            currentDir = os.path.join(root, directory)
+            
+            # if folder with log.json and label.json files is reached
+            if 'log.json' in os.listdir(currentDir):
+                
+                # read log file
+                with open(currentDir + '/log.json', 'r') as myfile:
+                    log = myfile.read()
+                
+                # read label file
+                with open(currentDir + '/label.json', 'r') as myfile:
+                    label = myfile.read()
+                    
+                # parse files
+                systemData = json.loads(log)
+                userData = json.loads(label)
+                
+                # iterate over all turns in the dialog
+                turn = 0
+                numberOfTurns = len(systemData["turns"])
+                while turn < numberOfTurns:
+                    dialogAct = userData["turns"][turn]["semantics"]["cam"]
+                    sentence = userData["turns"][turn]["transcription"].lower()
+                    
+                    multipleActs = dialogAct.split("|")
+                    
+                    # Test the functions
+                    keywordValue = baselineKeywords(" " + sentence + " ")
+                    distributionValue = baselineDistribution()
+                    
+                    # test eacht possible dialog act
+                    for act in multipleActs:
+                        act = removeParentheses(act)
+                        if keywordValue == act:
+                            correctKeywords += 1
+                        if distributionValue == act:
+                            correctDistributions += 1
+                    totalTests += 1
+                    
+                    turn += 1
+      
+    # Calculate and print the accuracies              
+    print("Keyword baseline accuracy is: " + str(correctKeywords / totalTests))
+    print("Distribution baseline accuracy is: " + str(correctDistributions / totalTests))
 
 # Calculates the weight per dialog act
 def getDialogActWeights():
@@ -139,6 +196,8 @@ def main():
     
     getDialogActWeights()
     
+    testBaseLines()
+    
     stop = 0
     
     while stop == 0:
@@ -154,7 +213,10 @@ def main():
         if stop == 0:
             utterance = ' ' + utterance + ' ' # adding a space at start and end
             
-            if not baselineKeywords(utterance):
+            baseLineAct = baselineKeywords(utterance)
+            if baseLineAct != "":
+                print(baseLineAct)
+            else:
                 print(baselineDistribution())
     
 main()

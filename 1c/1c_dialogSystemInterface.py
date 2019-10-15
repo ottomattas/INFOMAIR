@@ -19,16 +19,16 @@ class Instance:
         self.label = label
 
 # 0 is impolite, 1 is polite
-politeness = 0
+politeness = 1
 
 # path to both folders
-dataPath = 'C:\\Users\\Maarten\\Documents\\UU master AI\\MAIR'
+dataPath = '/Users/davidpaulniland/Documents/Artificial Intelligence Masters /Methods in AI Research /Labs /Project 1'
 
 # Path to the csv file
-csvPath = dataPath + '\\restaurantinfo.csv'
+csvPath = dataPath + '/restaurantinfo.csv'
 
 # All the keywords we can match against, used to fill the keywordList
-keywordsPath = dataPath + '\\keywords.json'
+keywordsPath = dataPath + '/keywords.json'
 
 # List of keywords to match, filled later in the code
 keywordList = {}
@@ -275,7 +275,7 @@ def stateTransition():
     # train the data
     vectorizer, classifier = trainLogisticRegression()
     
-    print(["hello", "Welcome to the A-team restaurant finder!"][politeness])
+    print(["Hello!", "You are most welcome to the A-team restaurant finder!"][politeness])
     
     while (state != 'exit'):
         
@@ -295,7 +295,7 @@ def stateTransition():
         
         # you can always exit the dialog with saying goodbye/bye
         if dialogAct == 'bye':
-            print(["bye", "Thanks for using the A-team restaurant finder!"][politeness])
+            print(["bye", "Thank you so much for using the A-team restaurant finder!"][politeness])
             return
         
         # you can restart the conversation from scratch
@@ -308,13 +308,13 @@ def stateTransition():
         # ask for the information we need
         elif state == 'getInfo':              
             if information["food"] == None:
-                print(["food type?","What type of food would you like?"][politeness])
+                print(["cuisine type?","What type of cuisine would you like?"][politeness])
                 
             elif information["area"] == None:
-                print(["what area?","What area do you want to have dinner in?"][politeness])
+                print(["what area?","What area would you like to have dinner in?"][politeness])
             
             elif information["price"] == None:
-                print(["what pricerange?","What pricerange do you prefer?"][politeness])
+                print(["what pricerange?","What pricerange would you prefer?"][politeness])
                 
             else:
                 print(["a " + information["price"] + " " + information["food"] +
@@ -339,9 +339,9 @@ def stateTransition():
                 print(["can't find a " + information["price"] + " " + information["food"] +
                     " restaurant in the " + information["area"] + "\n"
                     + "change preferences.",
-                    "I can't find a " + information["price"] + " " + information["food"] +
+                    "Unfortunately, I can't find a " + information["price"] + " " + information["food"] +
                     " restaurant in the " + information["area"] + " part of town. \n"
-                    + "try changing your preferences."][politeness])
+                    + "Try changing your preferences."][politeness])
                 state = 'getInfo'
         
         elif state == 'waitingForApproval':
@@ -351,22 +351,22 @@ def stateTransition():
             elif dialogAct == 'reqmore' or dialogAct == 'negate' or dialogAct == 'deny':
                 state = 'nextProposal'
             else:
-                print(["Did not understood. say it again",
-                       "I can't tell if you are confirming the offered restaurant. Please, Try again."][politeness])
+                print(["didn't understand. say it again",
+                       "I'm sorry, I can't tell if you are confirming the offered restaurant. Please, try again."][politeness])
         
         # finally, start waiting for a request
         elif state == 'waitingForRequest':       
             if isAcknowledgement(dialogAct):
                 print (["say your request","Please tell me your request"][politeness])
             elif dialogAct == 'negate' or dialogAct == 'deny':
-                print(["Okay, goodbye!","Thanks for using the A-team restaurant finder, have a good day"][politeness])
+                print(["Okay, goodbye!","Thank you for using the A-team restaurant finder, have a good day"][politeness])
                 return
             elif dialogAct == 'reqmore':
                 state = 'nextProposal'
             if dialogAct == 'request':
                 findRequests(userUtterance, vectorizer, classifier)
                 if len(information["requestables"]) == 0:
-                    print(["repeat that","I did not understand your request, could you repeat it?"][politeness])
+                    print(["repeat that","I'm sorry, I did not understand your request, can you repeat it?"][politeness])
                 else:
                     for request in information["requestables"]:
                         print(request + ": " + restaurants[restCount][requestIndex[request]])

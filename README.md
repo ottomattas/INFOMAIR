@@ -1,4 +1,14 @@
-# Methods in AI Research
+# INFOMAIR
+Methods in AI Research
+
+* Course description: http://www.cs.uu.nl/education/vak/INFOMAIR
+* Course page: https://uu.blackboard.com/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_128324_1
+
+---
+[Utrecht University](https://www.uu.nl/en) - [Artificial Intelligence Master's program](https://www.uu.nl/masters/en/artificial-intelligence)
+---
+
+
 
 # [Part 1a: data and domain modelling](https://uu.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_3274643_1&course_id=_122545_1)
 * Task description and datasets are available on [UU Blackboard](https://uu.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_3274643_1&course_id=_122545_1);
